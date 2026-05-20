@@ -1,0 +1,19 @@
+{
+  "name": "xuancai-xiaoxiaole",
+  "version": "1.0.0",
+  "description": "炫彩水果消消乐",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --platform=linux --arch=armv7l --out=dist"
+  },
+  "dependencies": {
+    "electron": "^28.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.2"
+  },
+  "keywords": ["game", "match3"],
+  "author": "",
+  "license": "MIT"
+}
